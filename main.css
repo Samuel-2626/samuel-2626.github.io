@@ -1,0 +1,97 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.main__img {
+    width: 250px;
+}
+
+.p_blockquote {
+    border-left: 7px solid #6679B6;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #6679B6;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: rgb(91, 86, 86);
+    font-family: 'Concert One', cursive;
+}
+
+nav {
+    background-color: white;
+}
+
+.about {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+main ul {
+    list-style: none;
+  }
+  
+main ul li::before {
+    content: "\2022";
+    color: #6679B6;
+    font-weight: 900;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+main ul li {
+    padding-bottom: 5px;
+}
+
+/* .project {
+    background-color: teal;
+    height: 150px;
+} */
+
+.card {
+    background-color: #0B1C51;
+    color: white;
+}
+
+.projects a {
+    color: #A8B0C8;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+.projects h5 {
+    color: #6679B6 !important;
+}
+
+.projects p {
+    color: #A8B0C8;
+}
+
+.articles {
+    background-color: white;
+}
+
+.about a {
+    text-decoration: none;
+    color: #6679B6;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+.card-text {
+    font-size: small;
+}
